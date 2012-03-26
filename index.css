@@ -1,0 +1,169 @@
+/* 
+    Document   : index
+    Created on : Mar 21, 2012, 1:36:26 PM
+    Author     : taranasus
+    Edited by  : Jody
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+a
+{
+    color: #666666;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -ms-transition-duration: 0.5s;
+}
+a:hover
+{
+    color: red;
+}
+#profilepic
+{
+    margin-top: 10px;
+    width: 100px; 
+    padding:10px; 
+    background-color: white;
+    -moz-box-shadow: 0px 0px 25px #888;
+    -webkit-box-shadow: 0px 0px 25px #888;
+    -o-box-shadow: 0px 0px 25px #888;
+    -ms-box-shadow: 0px 0px 25px #888;
+    -moz-transform:rotate(5deg);
+    -ms-transform:rotate(5deg);
+    -o-transform:rotate(5deg);
+    -webkit-transform:rotate(5deg);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -ms-transition-duration: 0.5s;
+}
+#profilepic:hover
+{
+    width: 310px;
+    -moz-transform:rotate(0deg);
+    -ms-transform:rotate(0deg);
+    -o-transform:rotate(0deg);
+    -webkit-transform:rotate(0deg);
+}
+body
+{    
+    padding: 0px;
+    margin: 0px;
+    background-image: url('images/background.png');
+    background-repeat: repeat-x;
+    background-color:#FFFFFF;
+    font-family: 'Tahoma';
+    font-size:13px;    
+    color: black;
+    text-shadow: 1px 1px #FFFFFF;
+}
+#pagewidth
+{
+    width: 960px;
+    background-color: white;
+    margin-left: auto;
+    margin-bottom: 100px;
+    margin-right: auto;
+    margin-top: -21px;
+    -moz-box-shadow: 0px 0px 25px #888;
+    -webkit-box-shadow: 0px 0px 25px #888;
+    -o-box-shadow: 0px 0px 25px #888;
+    -ms-box-shadow: 0px 0px 25px #888;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 20px;
+}
+h1
+{
+    margin-top: 5px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+h2
+{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.grayfont
+{
+    color: #666666;
+}
+#left
+{
+    text-transform: uppercase; 
+    width: 319px;
+    height: auto;
+    padding-right:20px;
+    margin: 0px;
+    margin-left: 10px;
+    border-right: 1px solid black;
+}
+#right
+{
+    float: right;
+    padding: 10px;
+    width: 570px;
+    margin: 0px;
+}
+.section
+{
+    padding-left:20px;
+    border-radius: 7px;
+    border: 1px solid #FFFFFF;
+    -webkit-transition-duration: 1.5s;
+    -moz-transition-duration: 1.5s;
+    -o-transition-duration: 1.5s;
+    -ms-transition-duration: 1.5s;
+}
+
+.section:hover
+{
+    border-radius: 7px;
+    border: 1px solid #666666;
+}
+tr
+{
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -ms-transition-duration: 0.5s;
+    border-radius: 7px;
+}
+tr:hover
+{
+    background-color: #AAAAAA;
+}
+.portfolioimage
+{
+    position: relative;
+    width:187px;
+    margin-bottom: -10px;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    -ms-transition-duration: 0.5s;
+    
+}
+.portfolioimage:hover
+{
+    padding-left: 80px;
+}
+.portfolioimagecontainer
+{
+    background-color: black;
+    display: inline-block;
+    width: 187px;
+    overflow: hidden;
+    text-shadow: none;
+    color: white;
+}
+.portfolioimagecontainer:hover
+{
+    color: white;
+}
